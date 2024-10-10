@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+}
+
+#header1{
+    .inder-regular {
+        font-family: "Inder", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+#header1 {
+    
+  background-color: #060029;
+  height: 15vh;
+  width: 100%;
+  color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   flex-direction: row;
+   align-items: center;
+   font-size: 15px;
+}
+
+#page1 {
+    background-color: #FFFFFF;
+    height: 70vh;
+    font-size: 40px;
+    color: #060029;
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   flex-direction: row;
+   align-items: center;
+}
+
+#page1 p{
+    color: #AF3AFD;
+}
+
