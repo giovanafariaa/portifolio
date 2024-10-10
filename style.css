@@ -2,16 +2,17 @@
     margin: 0%;
 }
 
-#header1{
-    .inder-regular {
-        font-family: "Inder", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-      
+
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+#header1 h1{
+    font-family: "Inder", sans-serif;
+    height: 300px;
 }
+
 #header1 {
-    
   background-color: #060029;
   height: 15vh;
   width: 100%;
@@ -22,6 +23,7 @@
    flex-direction: row;
    align-items: center;
    font-size: 15px;
+
 }
 
 #page1 {
@@ -29,14 +31,16 @@
     height: 70vh;
     font-size: 40px;
     color: #060029;
+    font-family: "Source Code Pro", monospace;
     display: flex;
+    flex-direction: row;
    justify-content: center;
    justify-content: space-around;
-   flex-direction: row;
    align-items: center;
 }
 
 #page1 p{
     color: #AF3AFD;
+    font-family: "Jomhuria", serif;
 }
 
