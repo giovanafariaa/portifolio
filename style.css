@@ -1,5 +1,6 @@
 * {
     margin: 0%;
+    padding: 0;
 }
 
 
@@ -42,5 +43,13 @@
 #page1 p{
     color: #AF3AFD;
     font-family: "Jomhuria", serif;
+    font-size: 35px;
+   
+}
+
+#page2  {
+    background-color: #060029;
+    opacity: 13%;
+    color: #000000;
 }
 
